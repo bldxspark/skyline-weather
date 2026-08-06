@@ -1,4 +1,4 @@
-import "vinext/types";
+/// <reference types="vite/client" />
 import "./.next/types/routes.d.ts";
 
 // NOTE: This file should not be edited
