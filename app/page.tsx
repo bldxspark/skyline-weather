@@ -62,8 +62,8 @@ function formatDay(date: string, index: number) {
 }
 
 export default function Home() {
-  const [query, setQuery] = useState("New York");
-  const [location, setLocation] = useState("New York");
+  const [query, setQuery] = useState("Lucknow");
+  const [location, setLocation] = useState("Lucknow");
   const [weather, setWeather] = useState<WeatherData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
@@ -88,7 +88,7 @@ export default function Home() {
     } finally { setLoading(false); }
   }, []);
 
-  useEffect(() => { loadWeather("New York"); }, [loadWeather]);
+  useEffect(() => { loadWeather("Lucknow"); }, [loadWeather]);
 
   const hourly = useMemo(() => {
     if (!weather) return [];

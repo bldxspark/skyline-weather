@@ -44,7 +44,7 @@ You can also view the live deployment at: https://weather-spark.vercel.app/
 
 Visit the live app at: https://weather-spark.vercel.app/
 
-Try searching for cities like `New York`, `London`, or `Tokyo` to see current conditions, hourly updates, and a 7-day forecast.
+Try searching for cities like `Lucknow`, `Mumbai`, or `Delhi` to see current conditions, hourly updates, and a 7-day forecast.
 
 ## Project Structure
 

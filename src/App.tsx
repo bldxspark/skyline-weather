@@ -29,7 +29,7 @@ type WeatherData = {
   };
 };
 
-const presets = ["New York", "London", "Tokyo"];
+const presets = ["Lucknow", "Mumbai", "Delhi"];
 
 function weatherLabel(code: number) {
   if (code === 0) return "Clear sky";
@@ -64,8 +64,8 @@ function formatDay(date: string, index: number) {
 }
 
 export default function App() {
-  const [query, setQuery] = useState("New York");
-  const [location, setLocation] = useState("New York");
+  const [query, setQuery] = useState("Lucknow");
+  const [location, setLocation] = useState("Lucknow");
   const [weather, setWeather] = useState<WeatherData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
@@ -115,7 +115,7 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    loadWeather("New York");
+    loadWeather("Lucknow");
   }, [loadWeather]);
 
   const hourly = useMemo(() => {
