@@ -40,6 +40,12 @@ You can also view the live deployment at: https://weather-spark.vercel.app/
 - `npm run build` — create a production build
 - `npm run preview` — preview the production build locally
 
+## Demo
+
+Visit the live app at: https://weather-spark.vercel.app/
+
+Try searching for cities like `New York`, `London`, or `Tokyo` to see current conditions, hourly updates, and a 7-day forecast.
+
 ## Project Structure
 
 - `src/App.tsx` — main weather app UI and logic
