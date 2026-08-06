@@ -31,7 +31,7 @@ type WeatherData = {
   };
 };
 
-const presets = ["New York", "London", "Tokyo"];
+const presets = ["Lucknow", "Delhi", "Mumbai"];
 
 function weatherLabel(code: number) {
   if (code === 0) return "Clear sky";
